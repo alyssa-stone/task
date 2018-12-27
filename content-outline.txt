@@ -1,0 +1,79 @@
+Depends on the content type, but the form in blue "hero" can be brought into the content by using the 
+views module or rendering as a block in code if it's a webform and enabled to be rendered as a block.
+
+Would get the field collection module, link module, and date module - drupal 7
+
+- Top Body text
+    -- Long Text
+    -- Not Required
+
+- Body image
+    -- Image
+    -- Not Required
+
+- Bottom Body Text
+    -- Long Text
+    -- Not Required
+
+- Tax Rules Table
+    -- Field Collection
+    -- Not Required
+    
+    - Table title
+    -- Text
+    -- Not Required
+    
+    - Column One Header
+    -- Text
+    -- Not Required
+    
+    - Column Two Header
+    -- Text
+    -- Not Required
+    
+    - Column Three Header
+    -- Text
+    -- Not Required
+    
+    - Column Four Header
+    -- Text
+    -- Not Required
+    
+    - Column Five Header
+    -- Text
+    -- Not Required
+    
+    - Tax Rules Field Collection
+        -- Field collection made up of 5 fields
+        -- Not Required
+        
+        -State
+        -- Text
+        -- Required
+        
+        - Effective Date
+        -- Date
+        -- Not Required
+
+        - Thresholds
+        -- Text
+        -- Required
+
+        - Transactions Included
+        -- Text
+        -- Required
+
+        - Full Details
+            -- Field Collection made up of 2 fields
+            -- Not Required
+
+            - Full Details Link
+            -- Link
+            -- Not Required
+
+            - Full Details Text
+            -- Long Text
+            -- Not Required
+Table Disclosure Text
+- Long Text
+- Not Required
